@@ -9,7 +9,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 
     # Flat Pages
-    url(r'^about/', include('django.contrib.flatpages.urls')),
-    url(r'^contact/', include('django.contrib.flatpages.urls')),
     url(r'', include('django.contrib.flatpages.urls'))
 )
